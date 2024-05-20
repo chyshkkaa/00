@@ -21,6 +21,15 @@ body {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
 }
 
+.menu a {
+    color: black;
+    font-size: 35px;
+}
+
+menu a:hover {
+    color: #6cc8ff;
+}
+
 .block {
     margin: auto;
     text-align: center;
@@ -28,6 +37,7 @@ body {
     border-radius: 50px;
     width: 80%;
     margin-bottom: 50px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
 }
 
 .first {
@@ -49,14 +59,7 @@ a {
 a:hover {
     color: #c19aec;
 
-.menu a {
-    color: black;
-    font-size: 35px;
-}
 
-menu a:hover {
-    color: #6cc8ff;
-}
 
 .footer {
     height: 150px;
