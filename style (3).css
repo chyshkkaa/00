@@ -4,7 +4,7 @@ padding: 0px;
 }
 
 body {
-    backround-color: #a8a7a7;
+    backround-color: #f8f7ff;
     font-family: Arial;
 }
 
@@ -18,7 +18,7 @@ body {
     background-color: #8862ea;
     border-radius: 40px;
     height: 100px;
-
+    box-shadow:
 }
 
 .block {
@@ -46,9 +46,16 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+    color: #c19aec;
+
 .menu a {
     color: black;
     font-size: 35px;
+}
+
+menu a:hover {
+    color: #6cc8ff;
 }
 
 .footer {
@@ -57,6 +64,9 @@ a {
     font-size: 30px;
     text-align: center;
 }
+
+footer:hover {
+    color: #919191;
 
 .footer a {
     color: black;
